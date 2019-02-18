@@ -4,8 +4,8 @@ import React, { Component } from 'react';
 export default class Spaceship extends React.component {
 
   Spaceship.defaultProps = {
-    colors: "secondary",
-    label: "Button Text"
+    colors: ['black', 'red'],
+    speed: "Button Text"
   };
   
   render() {
