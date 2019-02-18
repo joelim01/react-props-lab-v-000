@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 
 export default class Spaceship extends React.component {
 
-ThemedButton.defaultProps = {
+  ThemedButton.defaultProps = {
   theme: "secondary",
   label: "Button Text"
-};
+  };
   
   render() {
     <div>
