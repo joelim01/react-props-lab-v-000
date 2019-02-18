@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 
 export default class Spaceship extends React.component {
 
-  ThemedButton.defaultProps = {
-  theme: "secondary",
-  label: "Button Text"
+  Spaceship.defaultProps = {
+    theme: "secondary",
+    label: "Button Text"
   };
   
   render() {
