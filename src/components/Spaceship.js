@@ -1,4 +1,5 @@
 // Code The Spaceship Component Here
+import React, { Component } from 'react';
 
 export default class Spaceship extends React.component {
   
