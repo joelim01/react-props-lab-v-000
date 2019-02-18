@@ -2,7 +2,10 @@
 import React, { Component } from 'react';
 
 export default class Spaceship extends React.component {
-
+  static propTypes = {
+    submitSignInRequest: PropTypes.func.isRequired,
+  };
+  
   Spaceship.defaultProps = {
     colors: ['black', 'red'],
     speed: "Button Text"
